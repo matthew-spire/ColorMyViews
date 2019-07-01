@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun makeColored(view: View) {
+    private fun makeColored(view: View) {
         when (view.id) {
 
             // Boxes using Color class colors for background
